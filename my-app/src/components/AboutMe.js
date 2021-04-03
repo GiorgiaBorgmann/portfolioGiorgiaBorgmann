@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "./logo.png";
-import "./AboutMe.scss";
+import "../style/AboutMe.scss";
 
 export default function AboutMe() {
   return (
