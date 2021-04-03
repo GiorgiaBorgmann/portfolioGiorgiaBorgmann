@@ -1,13 +1,12 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import '../style/NavBar.scss'
-export default function NavBar(){
-    return(
-    <div className='nav-bar-container'>
-        <a href='#'>ABOUT</a>
-        <a href='#'>TECH SKILLS</a>
-        <a href='#'>PROJECTS</a>
-        <a href='#'>CONTACT</a>
+import React from "react";
+import "../style/NavBar.scss";
+import { Link } from "react-router-dom";
+export default function NavBar() {
+  return (
+    <div className="nav-bar-container">
+      <Link to='/'>ABOUT</Link>
+      <Link to='/projects'>PROJECTS</Link>
+      <Link to='/contact'>CONTACT</Link>
     </div>
-    )
+  );
 }
