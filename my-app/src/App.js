@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe'
 import TechSkills from './components/TechSkills'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
+import Projects from './components/Projects'
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,13 +21,12 @@ function App() {
           <TechSkills />
           <Footer/>
           </Route>
-          <Route path="/contact">
+          <Route exact path="/contact">
             <Contact/>
           </Route>
-          <Route path="/project">
-            
+          <Route exact path="/projects">
+            <Projects/>
           </Route>
-          
         </Switch>
     </Router>
   );

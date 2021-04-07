@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="contact-container">
             <div className='container-card-contact'>
                 <div className='container-photo-contact'>
-                    <img src={photo}/>
+                    <img src={photo} alt='Giorgia'/>
                     <h1>GIORGIA BORGMANN</h1>
                 </div>
                 <div className='container-text-contact'>
