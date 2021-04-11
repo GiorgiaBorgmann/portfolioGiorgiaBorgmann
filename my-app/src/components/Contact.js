@@ -4,14 +4,14 @@ import photo from '../style/giorgia.png'
 
 export default function Contact() {
     return (
-        <div className="contact-container">
+        <div className="contact-container" id='contact'>
             <div className='container-card-contact'>
                 <div className='container-photo-contact'>
                     <img src={photo} alt='Giorgia'/>
                     <h1>GIORGIA BORGMANN</h1>
                 </div>
                 <div className='container-text-contact'>
-                    <h1>CONTACT ME</h1>
+                    <span className='contact-me-h1'><h1>CONTACT ME</h1></span>
                     <h3>Feel free to contact me in my social medias accounts. I would love to get to know you!</h3>
                     <div className='contact-container-icons'>
                         <div>

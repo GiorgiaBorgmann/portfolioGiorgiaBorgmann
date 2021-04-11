@@ -2,12 +2,13 @@ import React from "react";
 import "../style/AboutMe.scss";
 import photo from '../style/background-text.png'
 import Particles from 'react-particles-js'
+import { Link } from "react-router-dom";
 
 export default function AboutMe() {
   return (
     <div className="about-me-container">
       
-      <div className="container-particles">
+      <div className="container-particles" id='home'>
       <Particles
         width='100wh'
         height="100vh"
@@ -40,8 +41,8 @@ export default function AboutMe() {
         <h1>BORGMANN</h1>
         <h3>Web developer</h3>
       </div>
-      <div className="container-image-text">
-        <h1>ABOUT ME</h1>
+      <div className="container-image-text" id='aboutMe'>
+        <span><h1>ABOUT ME</h1></span>
         <div className='container-text-about-me'>
           <img src={photo} alt='computer' />
           <div className="color-text-container">
@@ -59,7 +60,7 @@ export default function AboutMe() {
             working on ambitious projects with positive people.
             </p>
             <div className='btn-container'>
-              <a href="http://marcel-pirnay.be/" class="btn">
+              <a href='#projects' class="btn">
                 <svg width="277" height="62">
                   <defs>
                     <linearGradient id="grad1">
@@ -83,9 +84,6 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-        
-
-
       </div>
     </div>
   );

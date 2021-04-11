@@ -22,17 +22,17 @@
   width: 100vw;
   height: 10vh;
   color: white;
-  .contact-type-container{
-      display: flex;
-      align-items: center;
-      color: white;
-      text-decoration: none;
-      margin: 0 40px;
-      &:hover{
-          color: black;
-      }
-      span {
-          margin-left: 15px;
-      }
+  .contact-type-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin: 0 40px;
+    &:hover {
+      color: black;
+    }
+    span {
+      margin-left: 15px;
+    }
   }
 }
